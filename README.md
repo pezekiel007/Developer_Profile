@@ -23,6 +23,7 @@ The following are steps to build the developer profile app:
     - Open the activity_main.xml and Remove or Delete all views in the Constraint layout.
     - Change the Constraint Layout to a Linear Layout. ( The views in the UI design are vartically aligned and the Linear Layout will make it easy to implement it)
     - Give the Linear Layout the following attributes:
+
           a. android:background="@color/teal_700": Choose any color from the color resource
           b. android:gravity="center": To centralize the views on the layout. (Centered horizontally and vertically)
           c. android:orientation="vertical": This tell the views to be arranged from top to bottom.
