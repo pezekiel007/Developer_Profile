@@ -34,6 +34,7 @@ The following are steps to build the developer profile app:
     - Bring in a CardView.
     - Change the values of the layout_width and layout_height to 120dp.
     - Add these attributes:
+      
           a. android:backgroundTint="@color/teal_200": Choose any color from the color resource. (The background attribute doesn't change the colour)
           b. app:cardCornerRadius="100dp": This will turn the square looking cardview to a circle to fit the given UI design.
 
@@ -47,6 +48,7 @@ The following are steps to build the developer profile app:
     IV.
     - Bring in a TextView. (This will serve for your name displayed with the stylish font)
     - Give the TextView the following attributes:
+      
           a. android:fontFamily="@font/pacifico_regular": This is the desired font as in the UI design.
           b. android:text="@string/full_name": The text should be your name that is already saved in the strings.xml file.
           c. android:textAlignment="center". This aligns the text to the center
@@ -58,6 +60,7 @@ The following are steps to build the developer profile app:
     V.
     - Bring in another TextView. (This will serve for your tech course)
     - Give the TextView the following attributes:
+      
           a. android:text="@string/tech_course": The tech course saved in the strings.xml file.
           b. android:letterSpacing="0.15": For spacing in between the letters.
           c. android:textAlignment="center"
@@ -69,6 +72,7 @@ The following are steps to build the developer profile app:
     - Bring in a View. (Search for view in the pallete on Design interface)
     - Change the values of the layout_width to 150dp and layout_height to 1dp.
     - Give the View the following attributes:
+      
           a. android:layout_marginTop="8dp"
           b. android:background="@color/black": Choose any color and the colour should be visible.
 
@@ -78,6 +82,7 @@ The following are steps to build the developer profile app:
     - Type in "grey_bg" as the name and click OK.
     - In the grey_bg file, change the selector to shape and give an attribute called shape with rectangle as a value.
     - In between the shape start and end tag, add the following:
+      
           a. <solid android:color="@color/grey"/>
           b. <corners android:radius="5dp"/>
 
@@ -85,6 +90,7 @@ The following are steps to build the developer profile app:
     VIII.
     - Bring in a TextView. (This will serve for your phone number and email)
     - Give it the following attributes:
+      
           a. android:layout_marginTop="16dp": For space between and the view above it.
           b. android:background="@drawable/grey_bg": The drawable resource file called grey_bg will be the background.
           c. android:drawablePadding="20dp": Space between the icon inside the textview and the text.
