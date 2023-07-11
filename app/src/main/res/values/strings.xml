@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Developer Profile</string>
+
+    <string name="full_name">Wariboko Ezekiel</string>
+    <string name="tech_course">Android App Developer</string>
+    <string name="phone_number">+234 810 137 2199</string>
+    <string name="email_address">devopubo@gmail.com</string>
+    <string name="my_display_picture">My Display Picture</string>
+
+</resources>
